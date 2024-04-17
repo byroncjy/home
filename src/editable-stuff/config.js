@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Byron",
   middleName: "",
   lastName: "Chan",
-  message: " Passionate about using technology to solve real world problems. ",
+  message: "",
   icons: [
     {
       image: "fa-github",
@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/byron2.jpg"),
   imageSize: 375,
   message:
-    "Hi! I'm Byron. I'm a senior at New York University studying Computer Science and Business.",
+    "Hi! I'm Byron, a senior at New York University (2024) studying Computer Science and Business. I'm an aspiring software engineer interested in working in backend / systems engineering. \n I also love spending my free time on fashion and sports/fitness (going to the gym, long runs, basketball and more!).",
   resume: "https://onedrive.live.com/?cid=8C72C735ADC0484F&id=8C72C735ADC0484F%2141536&parId=8C72C735ADC0484F%212971&o=OneUp",
 };
 
@@ -53,10 +53,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Showcased Projects",
+  heading: "Recent Projects",
   gitHubUsername: "byroncjy", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["qr-connect", "home", "wiw-project"],
 };
 
 // Leadership SECTION
@@ -86,7 +86,7 @@ const leadership = {
 // SKILLS SECTION
 const skills = {
   show: true,
-  heading: "Skills",
+  heading: "Technical Skills",
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "Java", value: 80 },
@@ -95,23 +95,23 @@ const skills = {
     { name: "SQL", value: 70 },
     { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
+    { name: "Golang", value: 30 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Django", value: 90 },
+    { name: "React", value: 80 },
+    { name: "Express", value: 80 },
+    { name: "Node", value: 80 },
+    { name: "Git", value: 90 },
+    { name: "GitHub", value: 90 },
+    { name: "Docker", value: 80 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Contact Me",
   message:
     "I'm currently looking for full-time Software Engineering or Data Engineering opportunities! Please contact me at",
   email: "byroncjy@gmail.com",
